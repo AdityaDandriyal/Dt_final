@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "This is a daily commit added by the GitHub Action" >> daily_commit.txt
           git config --global user.name "GitHub Actions"
-          git config --global user.email "aditya.dandriyal@gramener.com"
+          git config --global user.email "aditya.dandriyal@gmail.com"
           git add daily_commit.txt
           git commit -m "Daily commit from GitHub Action"
           git push
