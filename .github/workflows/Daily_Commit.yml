@@ -3,7 +3,7 @@ name: Daily Commit
 on:
   schedule:
     # Run daily at 9:12 PM UTC
-    - cron: '02 16 * * *'
+    - cron: '11 11 * * *'
 
 permissions:
   contents: write
